@@ -7,3 +7,5 @@ Using CNN we have also run the code with same data, and same modifications can b
 In the final layer we have a softmax function.
 It is also shown how we can freeze our model and used it as a serving from tensorflow. So that we can access the trained model for predictions. It is also shown how to host it as a server. Flask is used for that.
 There are other ways of serving models with tensorflow. Will be implemented soon.
+
+A transfer learning solution from VGGNet has been added in a new folder. All the data is removed. Running the code would automatically incorporate the changes. For queries contact roydcat14@gmail.com
